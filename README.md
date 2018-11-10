@@ -1,6 +1,3 @@
-# command-dpkg
-command-dpkg
-=====
 # Giới thiệu về dpkg
 DPKG là chương trình chính quản lí gói trong Debian. Nó sử dụng để install, build, remove, và manage các gói. Aptitude là front-end chính cho dpkg.
 Dưới đây một số lệnh dpkg thường được sử dụng.
@@ -9,6 +6,7 @@ Dưới đây một số lệnh dpkg thường được sử dụng.
  ```
 	dpkg -i mysql-server-wsrep-5.5.28-23.7-amd64.deb
  ```
+Kết quả
  ````
 	tiennv000@td:~/Downloads$ sudo dpkg -i mysql-server-wsrep-5.5.28-23.7-amd64.deb (Reading database ... 213593 files and directories currently installed.)
 	Preparing to unpack mysql-server-wsrep-5.5.28-23.7-amd64.deb ...
